@@ -2,6 +2,7 @@
   "name": "node-learing",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -11,11 +12,14 @@
   "license": "ISC",
   "description": "Learning new projects",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "chalk": "^4.1.2",
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "minimist": "^1.2.8",
     "nodemon": "^3.1.4",
     "progress": "^2.0.3",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "uuid": "^10.0.0"
   }
 }
